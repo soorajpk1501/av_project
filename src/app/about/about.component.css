@@ -1,0 +1,36 @@
+.about{
+    width: 100%;
+padding: 150px 0;
+    background-image: url(../../assets/imgs/about-banner.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity:.8;
+}
+.aboutText{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.aboutText h4{
+    font-size: 28px;
+}
+.aboutText span{
+    color: tomato;
+}
+.working{
+    align-items: center;
+}
+.workingItems{
+    padding: 150px 0;
+}
+.workingItem h2{
+    color: tomato;
+text-transform: capitalize;
+}
+.workingItem p{
+    font-size: 20px;
+} 

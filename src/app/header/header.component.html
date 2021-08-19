@@ -1,0 +1,32 @@
+<section>
+    <div class="container header">
+        <div class="logo ">
+            <img src="../../assets/imgs/logo.png"  alt="">
+        </div>
+        <div class="headerButtons ">
+            <select name="" id="">
+                <option value="eng">ENGLISH</option>
+                <option value="eng">MALAYALAM</option>
+                <option value="eng">HINDI</option>
+            </select>
+            <a href="#list" id="list-btn"> <img src="https://img.icons8.com/android/20/ffffff/plus.png" />list your
+                items</a>
+            <a href="#login" id="login-btn" class="btn-success">login/Sign up</a>
+        </div>
+        <div class="menuIcon  " (click)="getClick('block')">
+            <label for="" class="" >Menu</label>
+            <img src="../../assets/imgs/menu-ic.png" alt="">
+        </div>
+    </div>
+
+    <!-- nav -->
+
+    <nav class="navcontainer  " [style.display]="nav" >
+        <div class="nav">
+            <img src="../../assets/imgs/cancel.png" alt="" (click)="getClick('none')">
+            <li><a [routerLink]="['/home']" routerLinkActive="router-link-active" (click)="getClick('none')" >home</a></li>
+            <li><a [routerLink]="['/about']" routerLinkActive="router-link-active" (click)="getClick('none')" >about</a></li>
+            <li><a [routerLink]="['/contact']" routerLinkActive="router-link-active" (click)="getClick('none')" >contact</a></li>
+        </div> 
+    </nav>
+</section>
